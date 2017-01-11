@@ -7,3 +7,5 @@ pipeline:
     image: golang:1.6
     commands:
       - go test
+  slack:
+    images: plugin/slack
