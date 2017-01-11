@@ -2,4 +2,3 @@ build:
   image: golang
   commands:
     - go test
-
