@@ -9,4 +9,5 @@ pipeline:
       - go test
   slack:
     image: plugins/slack
-    webhook: https://hooks.slack.com/services/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
+    channel: times_m-yamamoto
+    username: drone
