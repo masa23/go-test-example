@@ -1,4 +1,9 @@
-build:
-  image: golang
-  commands:
-    - go test
+workspace:
+  base: /go
+  path: src/github.sakura.codes/m-yamamoto/drone-test
+
+pipeline:
+  test:
+    image: golang:1.6
+    commands:
+      - go test
