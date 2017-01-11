@@ -15,3 +15,4 @@ pipeline:
     image: plugins/slack
     channel: times_m-yamamoto
     username: drone
+    webhook: $SLACK_WEBHOOK
