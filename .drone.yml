@@ -8,7 +8,7 @@ pipeline:
     commands:
       - go test
   command:
-    images: busybox
+    image: busybox
     commands:
       - echo $SLACK_WEBHOOK
   slack:
