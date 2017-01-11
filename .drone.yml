@@ -7,3 +7,7 @@ pipeline:
     image: golang:1.6
     commands:
       - go test
+  slack:
+    image: plugins/slack
+    channel: times_m-yamamoto
+    username: drone
