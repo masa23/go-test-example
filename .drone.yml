@@ -7,9 +7,3 @@ pipeline:
     image: golang:1.6
     commands:
       - go test
-  slack:
-    image: plugins/slack
-    webhook: webhook: https://hooks.slack.com/services/
-    channel: times_m-yamamoto
-    username: drone
-
