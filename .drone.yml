@@ -9,6 +9,6 @@ pipeline:
       - go test
   slack:
     image: plugins/slack
-    webhook: webhook: https://hooks.slack.com/services
+    webhook: webhook: https://hooks.slack.com/services/
     channel: times_m-yamamoto
     username: drone
