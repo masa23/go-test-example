@@ -7,6 +7,10 @@ pipeline:
     image: golang:1.6
     commands:
       - go test
+  command:
+    images: busybox
+    commands:
+      - echo $SLACK_WEBHOOK
   slack:
     image: plugins/slack
     channel: times_m-yamamoto
