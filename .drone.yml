@@ -10,7 +10,7 @@ pipeline:
   command:
     image: busybox
     commands:
-      - echo $SLACK_WEBHOOK
+      - echo $PASSWORD
   slack:
     image: plugins/slack
     channel: times_m-yamamoto
